@@ -14,7 +14,7 @@ const InputArea = (props) => {
       <GuideText text="Enter message:" />
       <div style={{ height: "6rem" }}>
         <textarea
-          className="w-75 h-100 text-area rounded px-1 mx-auto form-control bg-light"
+          className="w-100 box h-100 text-area rounded px-1 form-control bg-light"
           type="text"
           style={{ fontSize: "14px" }}
           value={inputValue}

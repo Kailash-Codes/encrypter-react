@@ -11,9 +11,9 @@ const ButtonGroup = (props) => {
     }
   }
   return (
-    <div className="d-flex gap-2 mt-3 justify-content-center mb-2">
-      <Button className="btn btn-primary" onClick={handleClick} btnName="encrypt" name="encr" />
-      <Button className="btn btn-primary" btnName="decrypt" onClick={handleClick} name="decr" />
+    <div className="d-flex  btn-group gap-2 mt-3 justify-content-center  mb-2">
+      <Button className="btn fs-5 text-black btn-primary rounded-3" onClick={handleClick} btnName="Encrypt" name="encr" />
+      <Button className="btn fs-5 text-black btn-primary rounded-3" btnName="Decrypt" onClick={handleClick} name="decr" />
     </div>
   );
 };

@@ -6,7 +6,7 @@ const OutputArea = (props) => {
   return (
     <div className="mt-2">
       <GuideText text="Encrypted message is:" />
-      <div className="border bg-light w-75 mx-auto rounded text-start px-1" style={{minHeight:"6rem"}}>
+      <div className="border bg-light mx-auto rounded text-start px-1" style={{minHeight:"6rem"}}>
       <p style={{ color: "red",overflowWrap:"break-word"}}>{out}</p>
       </div>
     </div>
